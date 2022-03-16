@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>KP Wheel Decide</title>
 </head>
 <body>
-    <head>
+    <header>
         <h1>Kinopoisk Wheel Decide</h1>
-    </head>
+    </header>
+    <main>
+        <div id="venues" style="float: left">
+            <ul />
+          </div>
+          <div id="wheel">
+            <canvas id="canvas" width="1000" height="600"></canvas>
+          </div>
+          <div id="stats">
+            <div id="counter"></div>
+          </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js" integrity="sha256-0W0HoDU0BfzslffvxQomIbx0Jfml6IlQeDlvsNxGDE8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
